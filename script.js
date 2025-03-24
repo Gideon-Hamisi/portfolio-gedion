@@ -76,3 +76,18 @@ window.addEventListener('scroll', () => {
         backToTopButton.classList.remove('show');
     }
 });
+
+// Theme Toggle
+const themeToggleButton = document.querySelector('.theme-toggle');
+const body = document.body;
+
+themeToggleButton.addEventListener('click', () => {
+    const currentTheme = body.getAttribute('data-theme');
+    if (currentTheme === 'dark') {
+        body.setAttribute('data-theme', 'light');
+        themeToggleButton.innerHTML = '<i class="fas fa-sun"></i>'; // Switch to sun icon
+    } else {
+        body.setAttribute('data-theme', 'dark');
+        themeToggleButton.innerHTML = '<i class="fas fa-moon"></i>'; // Switch to moon icon
+    }
+});

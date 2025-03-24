@@ -6,10 +6,10 @@
     <title>Gedion Mutinda Amisi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Add Font Awesome for social icons -->
+    <!-- Add Font Awesome for social icons, theme toggle, and calendar icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body data-theme="dark">
     <!-- Main Container for Sidebar, Main Content, and Footer -->
     <div class="main-container">
         <!-- Sidebar Card -->
@@ -179,36 +179,37 @@
                     <div class="skills-grid">
                         <div class="skill-category">
                             <h4>Programming</h4>
-                            <ul>
-                                <li>Python</li>
-                                <li>JavaScript/TypeScript</li>
-                                <li>SQL</li>
-                                <li>Git</li>
-                            </ul>
+                            <div class="skill-items">
+                                <span>Python</span>
+                                <span>JavaScript/TypeScript</span>
+                                <span>SQL</span>
+                                <span>Git</span>
+                            </div>
                         </div>
                         <div class="skill-category">
                             <h4>Web</h4>
-                            <ul>
-                                <li>Flask</li>
-                                <li>Django</li>
-                                <li>ExpressJs</li>
-                                <li>NodeJs</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                            </ul>
+                            <div class="skill-items">
+                                <span>Flask</span>
+                                <span>Django</span>
+                                <span>ExpressJs</span>
+                                <span>NodeJs</span>
+                                <span>ReactJs</span>
+                                <span>NextJs</span>
+                                <span>REST</span>
+                            </div>
                         </div>
                         <div class="skill-category">
                             <h4>Data Science & ML</h4>
-                            <ul>
-                                <li>Tensorflow</li>
-                                <li>Pandas</li>
-                                <li>Plotly</li>
-                                <li>Matplotlib</li>
-                                <li>Scikit Learn</li>
-                                <li>Power BI</li>
-                                <li>Machine Learning</li>
-                                <li>Deep Learning</li>
-                            </ul>
+                            <div class="skill-items">
+                                <span>Tensorflow</span>
+                                <span>Pandas</span>
+                                <span>Plotly</span>
+                                <span>Matplotlib</span>
+                                <span>Scikit Learn</span>
+                                <span>Power BI</span>
+                                <span>Machine Learning</span>
+                                <span>Deep Learning</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -223,19 +224,19 @@
                             <img src="assets/images/article1.jpg" alt="Article 1">
                             <h3><a href="https://medium.com/@gideonamisi11/advanced-data-pipelines-with-python-1111d3c47be7" target="_blank">Advanced Data Pipelines with Python</a></h3>
                             <p>In this article, I will share my experience building scalable data pipelines using Python and Spark...</p>
-                            <p class="date">Oct 16, 2024</p>
+                            <p class="date"><i class="fas fa-calendar-alt"></i> Oct 16, 2024</p>
                         </div>
                         <div class="article-card">
                             <img src="assets/images/article2.jpg" alt="Article 2">
                             <h3><a href="https://medium.com/@gideonamisi11/deploying-ml-models-with-docker-e5e3eb6fba53" target="_blank">Deploying ML Models with Docker</a></h3>
                             <p>A step-by-step guide to containerizing and deploying machine learning models using Docker...</p>
-                            <p class="date">Mar 14, 2024</p>
+                            <p class="date"><i class="fas fa-calendar-alt"></i> Mar 14, 2024</p>
                         </div>
                         <div class="article-card">
                             <img src="assets/images/backend.jpg" alt="Article 3">
                             <h3><a href="https://medium.com/@gideonamisi11/title-demystifying-the-backend-the-hidden-engine-of-modern-applications-6f602048bb62" target="_blank">Demystifying the Backend: The Hidden Engine of Modern Applications</a></h3>
                             <p>When you scroll through your favorite app, hit “submit” on a form, or binge-watch a series on a streaming platform, you’re interacting with a beautifully choreographed dance of technology...</p>
-                            <p class="date">Nov 10, 2024</p>
+                            <p class="date"><i class="fas fa-calendar-alt"></i> Nov 10, 2024</p>
                         </div>
                     </div>
                 </div>
@@ -249,8 +250,10 @@
                         <div class="project-card">
                             <h3>Predictive Model</h3>
                             <p>Designed and developed an interactive dashboard to visualize geographic data on conflict incidents as well as results from the predictive model, using Streamlit and Docker for deployment.</p>
-                            <a href="https://example.com/predictive-model-demo" class="btn" target="_blank">View Demo</a>
-                            <a href="#" class="btn">GitHub</a>
+                            <div class="project-buttons">
+                                <a href="https://example.com/predictive-model-demo" class="btn" target="_blank"><i class="fas fa-link"></i> View Demo</a>
+                                <a href="#" class="btn" target="_blank"><i class="fab fa-github"></i> Github</a>
+                            </div>
                             <div class="tech-stack">
                                 <span>Streamlit</span>
                                 <span>Docker</span>
@@ -261,8 +264,10 @@
                         <div class="project-card">
                             <h3>Revenue Forecasting Model</h3>
                             <p>Created a machine learning model to forecast revenue for the Kenya Revenue Authority, analyzing historical data and identifying trends to optimize collection strategies.</p>
-                            <a href="https://example.com/revenue-forecasting-demo" class="btn" target="_blank">View Demo</a>
-                            <a href="#" class="btn">GitHub</a>
+                            <div class="project-buttons">
+                                <a href="https://example.com/revenue-forecasting-demo" class="btn" target="_blank"><i class="fas fa-link"></i> View Demo</a>
+                                <a href="#" class="btn" target="_blank"><i class="fab fa-github"></i> Github</a>
+                            </div>
                             <div class="tech-stack">
                                 <span>R</span>
                                 <span>SQL</span>
@@ -272,8 +277,10 @@
                         <div class="project-card">
                             <h3>Fraud Detection System for Mobile Money Transactions</h3>
                             <p>This project implements a fraud detection system for mobile money transactions using machine learning. It features a Streamlit-based dashboard to visualize model performance, predictions, feature importance, and monitoring trends. The system uses XGBoost with SMOTE for handling imbalanced data, persists the trained model, and logs predictions for ongoing analysis.</p>
-                            <a href="https://mobile-money-fraud-detection.streamlit.app/" class="btn" target="_blank">View Demo</a>
-                            <a href="https://github.com/Gideon-Hamisi/fraud" class="btn" target="_blank">GitHub</a>
+                            <div class="project-buttons">
+                                <a href="https://mobile-money-fraud-detection.streamlit.app/" class="btn" target="_blank"><i class="fas fa-link"></i> View Demo</a>
+                                <a href="https://github.com/Gideon-Hamisi/fraud" class="btn" target="_blank"><i class="fab fa-github"></i> Github</a>
+                            </div>
                             <div class="tech-stack">
                                 <span>XGBoost</span>
                                 <span>SMOTE</span>
@@ -299,6 +306,11 @@
     <a href="#" class="back-to-top" title="Back to Top">
         <i class="fas fa-star"></i>
     </a>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" title="Toggle Theme">
+        <i class="fas fa-moon"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
