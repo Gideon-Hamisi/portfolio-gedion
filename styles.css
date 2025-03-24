@@ -78,9 +78,22 @@ body {
     margin-bottom: 15px;
 }
 
+.profile .name-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.profile .name-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain; /* Ensure the image fits within the circular frame */
+}
+
 .profile h1 {
     font-size: 24px;
-    margin-bottom: 5px;
 }
 
 .profile .title {
