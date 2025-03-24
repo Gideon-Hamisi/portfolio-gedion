@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gedion Mutinda Amisi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Add Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Main Container for Sidebar, Main Content, and Footer -->
+    <div class="main-container">
+        <!-- Sidebar Card -->
+        <div class="sidebar card">
+            <div class="profile">
+                <img src="assets/images/gideon.jpg" alt="Gedion Mutinda Amisi">
+                <h1>Gedion Mutinda Amisi</h1>
+                <p class="title">Data Scientist | ML Developer | Data Analyst | Software Developer</p>
+            </div>
+            <div class="contact">
+                <h2>Get in Touch</h2>
+                <p>Talk to me. Let me know how I can help.</p>
+                <form data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <textarea name="message" placeholder="What's on your mind?"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <!-- Social Links Section -->
+            <div class="social-links">
+                <div class="social-icons">
+                    <a href="https://twitter.com/hamisi_gideon" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gamisi" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gideon_hamisi/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/gideon_hamisi" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://medium.com/@gideonamisi11" target="_blank" title="Medium">
+                        <i class="fa-brands fa-medium"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Card -->
+        <div class="main-content card">
+            <!-- Navigation -->
+            <nav class="tabs">
+                <a href="#about" class="tab active">About</a>
+                <a href="#resume" class="tab">Resume</a>
+                <a href="#articles" class="tab">Articles</a>
+                <a href="#portfolio" class="tab">Portfolio</a>
+            </nav>
+
+            <!-- About Section -->
+            <section id="about" class="content-section active">
+                <div class="inner-card">
+                    <h2>About Me</h2>
+                    <p>I’m a Data Scientist and ML Developer with over 3 years of experience, delivering innovative solutions that drive business impact. I specialize in designing and deploying machine learning models to enhance predictive accuracy and operational efficiency. Proficient in building REST APIs, managing code with Git, and using Docker for seamless deployment, I also have expertise in SQL databases, big data tools like Hadoop and Spark, and BI tools like Power BI. I excel in end-to-end data pipelines—from extraction and cleaning to visualization and deployment. I thrive in cross-functional teams, collaborating with data engineers, analysts, and stakeholders to deliver data-driven solutions. As an Agile advocate, I ensure timely project delivery, and my leadership in mentoring junior data scientists and leading workshops underscores my commitment to continuous learning and team growth.</p>
+                </div>
+                <div class="inner-card">
+                    <h2>Testimonials</h2>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-card">
+                                <span class="quote-mark">"</span>
+                                <p>I've worked with Gedion on several projects, and he consistently delivers high-quality work. His professionalism, attention to detail, and ability to meet deadlines have made him a valuable partner.</p>
+                                <h4>John Mwangi</h4>
+                                <span class="title">Project Manager — Glafpol LLC</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <span class="quote-mark">"</span>
+                                <p>Gedion’s expertise in machine learning transformed our revenue forecasting at KRA. His dashboards provided actionable insights that boosted our efficiency by 15%.</p>
+                                <h4>Margaret Wanjiru Pere</h4>
+                                <span class="title">Manager — Kenya Revenue Authority</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <span class="quote-mark">"</span>
+                                <p>As a mentor, Gedion was exceptional. His guidance at Africa Data School helped me master data science concepts and land my first job in the field.</p>
+                                <h4>Sarah Kiptoo</h4>
+                                <span class="title">Former Student — Africa Data School</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <span class="quote-mark">"</span>
+                                <p>Gedion’s ability to simplify complex data problems is remarkable. His predictive models have been a game-changer for our strategic planning.</p>
+                                <h4>David Otieno</h4>
+                                <span class="title">Data Engineer — Glafpol LLC</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <span class="quote-mark">"</span>
+                                <p>Working with Gedion was a pleasure. His collaborative approach and deep technical knowledge ensured our project was delivered on time and exceeded expectations.</p>
+                                <h4>Linda Achieng</h4>
+                                <span class="title">Business Analyst — Kenya Revenue Authority</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <span class="quote-mark">"</span>
+                                <p>Gedion’s workshops on machine learning were incredibly insightful. He has a unique ability to teach complex concepts in an accessible way.</p>
+                                <h4>Peter Njoroge</h4>
+                                <span class="title">Junior Data Scientist</span>
+                            </div>
+                        </div>
+                        <!-- Navigation Dots -->
+                        <div class="testimonial-dots">
+                            <span class="dot active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                            <span class="dot" data-slide="2"></span>
+                            <span class="dot" data-slide="3"></span>
+                            <span class="dot" data-slide="4"></span>
+                            <span class="dot" data-slide="5"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="content-section">
+                <div class="inner-card">
+                    <h2>Resume</h2>
+                    <div class="download-buttons">
+                        <a href="assets/pdfs/resume gideon's.pdf" class="download-btn">Download Resume</a>
+                        <a href="assets/pdfs/recommendation.pdf" class="download-btn">Download Recommendation Letter</a>
+                    </div>
+                    <h3>Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Tech Lead</h4>
+                            <p class="company">Pamba Africa</p>
+                            <p class="date">Mar, 2024 - Present</p>
+                            <ul>
+                                <li>Designed and developed the backend system for Pamba Africa MVP.</li>
+                                <li>Led the core development team.</li>
+                                <li>Wrote code documentation and technical specifications for the backend.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Software Developer</h4>
+                            <p class="company">Consultant</p>
+                            <p class="date">Jan, 2021 - Present</p>
+                            <ul>
+                                <li>Designing and developing backend systems.</li>
+                                <li>Integrating APIs and Third-Party Services.</li>
+                                <li>Version Control and Collaboration.</li>
+                                <li>Scoping and managing software projects.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Data Science Instructor</h4>
+                            <p class="company">Africa Data School</p>
+                            <p class="date">Aug, 2021 - Dec, 2023</p>
+                            <ul>
+                                <li>Manage and deliver data science content for learners.</li>
+                                <li>Create and curate lecture.</li>
+                                <li>Maintain high level of interactivity with learners.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>My Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <ul>
+                                <li>Python</li>
+                                <li>JavaScript/TypeScript</li>
+                                <li>SQL</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web</h4>
+                            <ul>
+                                <li>Flask</li>
+                                <li>Django</li>
+                                <li>ExpressJs</li>
+                                <li>NodeJs</li>
+                                <li>ReactJs</li>
+                                <li>NextJs</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Data Science & ML</h4>
+                            <ul>
+                                <li>Tensorflow</li>
+                                <li>Pandas</li>
+                                <li>Plotly</li>
+                                <li>Matplotlib</li>
+                                <li>Scikit Learn</li>
+                                <li>Power BI</li>
+                                <li>Machine Learning</li>
+                                <li>Deep Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Articles Section -->
+            <section id="articles" class="content-section">
+                <div class="inner-card">
+                    <h2>Articles</h2>
+                    <div class="article-grid">
+                        <div class="article-card">
+                            <img src="assets/images/article1.jpg" alt="Article 1">
+                            <h3><a href="https://medium.com/@gideonamisi11/advanced-data-pipelines-with-python-1111d3c47be7" target="_blank">Advanced Data Pipelines with Python</a></h3>
+                            <p>In this article, I will share my experience building scalable data pipelines using Python and Spark...</p>
+                            <p class="date">Oct 16, 2024</p>
+                        </div>
+                        <div class="article-card">
+                            <img src="assets/images/article2.jpg" alt="Article 2">
+                            <h3><a href="https://medium.com/@gideonamisi11/deploying-ml-models-with-docker-e5e3eb6fba53" target="_blank">Deploying ML Models with Docker</a></h3>
+                            <p>A step-by-step guide to containerizing and deploying machine learning models using Docker...</p>
+                            <p class="date">Mar 14, 2024</p>
+                        </div>
+                        <div class="article-card">
+                            <img src="assets/images/backend.jpg" alt="Article 3">
+                            <h3><a href="https://medium.com/@gideonamisi11/title-demystifying-the-backend-the-hidden-engine-of-modern-applications-6f602048bb62" target="_blank">Demystifying the Backend: The Hidden Engine of Modern Applications</a></h3>
+                            <p>When you scroll through your favorite app, hit “submit” on a form, or binge-watch a series on a streaming platform, you’re interacting with a beautifully choreographed dance of technology...</p>
+                            <p class="date">Nov 10, 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="content-section">
+                <div class="inner-card">
+                    <h2>Portfolio</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <h3>Predictive Model</h3>
+                            <p>Designed and developed an interactive dashboard to visualize geographic data on conflict incidents as well as results from the predictive model, using Streamlit and Docker for deployment.</p>
+                            <a href="https://example.com/predictive-model-demo" class="btn" target="_blank">View Demo</a>
+                            <a href="#" class="btn">GitHub</a>
+                            <div class="tech-stack">
+                                <span>Streamlit</span>
+                                <span>Docker</span>
+                                <span>Python</span>
+                                <span>Mapbox</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h3>Revenue Forecasting Model</h3>
+                            <p>Created a machine learning model to forecast revenue for the Kenya Revenue Authority, analyzing historical data and identifying trends to optimize collection strategies.</p>
+                            <a href="https://example.com/revenue-forecasting-demo" class="btn" target="_blank">View Demo</a>
+                            <a href="#" class="btn">GitHub</a>
+                            <div class="tech-stack">
+                                <span>R</span>
+                                <span>SQL</span>
+                                <span>Power BI</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h3>Fraud Detection System for Mobile Money Transactions</h3>
+                            <p>This project implements a fraud detection system for mobile money transactions using machine learning. It features a Streamlit-based dashboard to visualize model performance, predictions, feature importance, and monitoring trends. The system uses XGBoost with SMOTE for handling imbalanced data, persists the trained model, and logs predictions for ongoing analysis.</p>
+                            <a href="https://mobile-money-fraud-detection.streamlit.app/" class="btn" target="_blank">View Demo</a>
+                            <a href="https://github.com/Gideon-Hamisi/fraud" class="btn" target="_blank">GitHub</a>
+                            <div class="tech-stack">
+                                <span>XGBoost</span>
+                                <span>SMOTE</span>
+                                <span>Streamlit</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Card -->
+        <footer class="footer card">
+            <div class="footer-content">
+                <p>Made with ❤️ by Gedion Mutinda Amisi</p>
+                <span class="footer-year">©2025</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" title="Back to Top">
+        <i class="fas fa-star"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
